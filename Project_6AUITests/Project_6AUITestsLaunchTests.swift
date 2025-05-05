@@ -2,7 +2,7 @@
 //  Project_6AUITestsLaunchTests.swift
 //  Project_6AUITests
 //
-//  Created by Colfefe on 5/5/25.
+//  Created by Colton Lavalette on 5/5/25.
 //
 
 import XCTest
