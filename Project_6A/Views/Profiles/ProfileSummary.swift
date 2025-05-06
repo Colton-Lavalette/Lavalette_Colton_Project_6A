@@ -48,6 +48,8 @@ struct ProfileSummary: View {
                         .font(.headline)
 
                     HikeView(hike: modelData.hikes[0])
+                    HikeView(hike: modelData.hikes[1])
+                    HikeView(hike: modelData.hikes[2])
                 }
             }
         }
