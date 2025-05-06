@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(ModelData.self) var modelData
     @State private var selection: Tab = .featured
     
     enum Tab {
