@@ -22,7 +22,7 @@ struct HikeGraph: View {
     var color: Color {
         switch path {
         case \.elevation:
-            return .gray
+            return Color(red: 34 / 255, green: 139 / 255, blue: 34 / 255)
         case \.heartRate:
             return Color(hue: 0, saturation: 0.5, brightness: 0.7)
         case \.pace:
