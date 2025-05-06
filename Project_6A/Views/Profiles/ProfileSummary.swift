@@ -2,7 +2,7 @@
 //  ProfileSummary.swift
 //  Project_6A
 //
-//  Created by Colfefe on 5/6/25.
+//  Created by Colton Lavalette on 5/6/25.
 //
 
 import SwiftUI
