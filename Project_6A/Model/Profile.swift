@@ -10,10 +10,10 @@ import Foundation
 struct Profile {
     var username: String
     var prefersNotifications = true
-    var seasonalPhoto = Season.winter
+    var seasonalPhoto = Season.spring
     var goalDate = Date()
     
-    static let `default` = Profile(username: "g_kumar")
+    static let `default` = Profile(username: "c_lavalette")
     
     enum Season: String, CaseIterable, Identifiable {
         case spring = "🌷"
