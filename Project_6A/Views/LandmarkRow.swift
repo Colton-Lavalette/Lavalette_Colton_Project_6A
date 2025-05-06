@@ -2,7 +2,7 @@
 //  LandmarkRow.swift
 //  Project_6A
 //
-//  Created by Colfefe on 5/5/25.
+//  Created by Colton Lavalette on 5/5/25.
 //
 
 import SwiftUI
@@ -22,6 +22,9 @@ struct LandmarkRow: View {
     }
 }
 
-#Preview {
-    LandmarkRow(landmark: landmarks[0])
+#Preview("Turtle Rock") {
+    Group {
+        LandmarkRow(landmark: landmarks[0])
+        LandmarkRow(landmark: landmarks[1])
+    }
 }
